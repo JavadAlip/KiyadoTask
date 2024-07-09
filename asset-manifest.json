@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/KiyadoTask/static/css/main.523a7f89.css",
+    "main.js": "/KiyadoTask/static/js/main.6cafd96f.js",
+    "static/media/logo.png": "/KiyadoTask/static/media/logo.e980bb0d106c7dc7c25b.png",
+    "index.html": "/KiyadoTask/index.html",
+    "main.523a7f89.css.map": "/KiyadoTask/static/css/main.523a7f89.css.map",
+    "main.6cafd96f.js.map": "/KiyadoTask/static/js/main.6cafd96f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.523a7f89.css",
+    "static/js/main.6cafd96f.js"
+  ]
+}
