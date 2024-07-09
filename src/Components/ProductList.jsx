@@ -39,7 +39,7 @@ const ProductList = ({ searchQuery, addToCart }) => {
     }, [searchQuery]);
 
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-[100px]">
             <div className="col-span-full mb-4">
                 <label htmlFor="category">Filter by Category:</label>
                 <select id="category" className="ml-2 p-1" value={selectedCategory}
@@ -53,7 +53,7 @@ const ProductList = ({ searchQuery, addToCart }) => {
             </div>
             {filteredProducts.length === 0 ? (
                 <div className="col-span-full">
-                    <p className="text-center">No products found</p>
+                    <p className="text-center">No products found!</p>
                 </div>
             ) : (
                 filteredProducts.map(product => (
@@ -65,3 +65,4 @@ const ProductList = ({ searchQuery, addToCart }) => {
 };
 
 export default ProductList;
+

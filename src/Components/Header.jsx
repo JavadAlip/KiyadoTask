@@ -4,7 +4,7 @@ import logo from './../Assets/logo.png';
 
 const Header = ({ searchQuery, setSearchQuery }) => {
     return (
-        <header className='bg-slate-300 p-4 flex justify-between items-center'>
+        <header className='bg-slate-300 p-4 h-[80px] flex justify-between items-center fixed top-0 left-0 w-full z-10'>
             <Link to="/">
                 <img src={logo} alt="Logo" className="w-[80px] h-[80px] mr-auto" />
             </Link>
@@ -26,4 +26,3 @@ const Header = ({ searchQuery, setSearchQuery }) => {
 };
 
 export default Header;
-

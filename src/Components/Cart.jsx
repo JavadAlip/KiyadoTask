@@ -4,7 +4,7 @@ const Cart = ({ cartItems }) => {
   const totalPrice = cartItems.reduce((acc, item) => acc + item.price, 0);
 
   return (
-    <div className="mt-8 p-4 border rounded-lg shadow-lg bg-white">
+    <div className="mt-[100px] p-4 border rounded-lg shadow-lg bg-white">
       <h2 className="text-xl font-bold mb-4">Cart Items</h2>
       {cartItems.length === 0 ? (
         <p>Your cart is empty!</p>
